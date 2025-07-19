@@ -17,4 +17,20 @@ Easily manage your freelance or business invoices: Add, View, Search, and Delete
 ---
 
 ## 📁 Folder Structure
+invoice_manager/
+├── main.cpp # Main user interface
+├── invoice.cpp # Invoice logic (add/view/search/delete)
+├── invoice.h # Structure and function declarations
+├── invoices.txt # Invoice storage (created automatically)
+
+ Sample Menu
+pgsql
+Copy
+Edit
+========= Invoice Tracker =========
+1. Add Invoice
+2. View All Invoices
+3. Search Invoice by Client Name
+4. Delete Paid Invoices
+0. Exit
 
